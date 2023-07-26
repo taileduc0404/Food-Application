@@ -1,0 +1,97 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*body {
+  margin-bottom: 60px;
+}*/
+.text-dark {
+    color: darkslategray !important;
+}
+.nav-link{
+    letter-spacing:2px;
+}
+#carouselExampleIndicators{
+    height:400px;
+}
+header{
+    z-index:1000;
+}
+footer {
+    background-color: #0d243d;
+    height: 230px;
+}
+footer a:link{
+    text-decoration:none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.dishCard{
+    height:250px;
+}
+#todaySpecial{
+    margin-bottom:60px;
+}
+.banner {
+    margin-bottom: 60px;
+}
+.fa-instagram {
+    color: #F77737;
+}
+.fa-whatsapp {
+    color: #5FFC7B;
+}
+.fa-facebook {
+    color: #17A9FD;
+}
+
+.fa-envelope {
+    color: #127CD6;
+}
+
+#recipe-list{
+    top:2rem;
+}
+.scrollbar {
+    height: 300px;
+    width: 50%;
+    overflow: auto;
+    padding: 0 10px;
+}
+    #recipe-list::-webkit-scrollbar {
+        width: 8px;
+        height:55px;
+    }
+
+    #recipe-list::-webkit-scrollbar-track {
+        border-radius: 8px;
+        background-color: #ffffff;
+        border: 1px solid #cacaca;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    }
+
+#recipe-list::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #198754;
+}
+.recipe-item:hover {
+    background-color: #3b9a13;
+    border-radius:8px;
+}
+    .recipe-item:hover a {
+        color: #ffffff !important;
+    }
